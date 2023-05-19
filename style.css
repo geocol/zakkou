@@ -1,0 +1,95 @@
+html {
+  writing-mode: vertical-rl;
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  --page-height: 120em;
+  text-underline-position: left;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 10em 1em;
+  min-height: var(--page-height);
+  line-height: 2;
+}
+
+nav a {
+  margin-inline-end: .5em;
+  font-size: 150%;
+}
+
+header {
+  margin: 0;
+  padding: 10em 1em;
+  min-height: var(--page-height);
+  line-height: 2;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+header p {
+  margin: 0;
+  padding: 0;
+  text-align: end;
+  font-size: 150%;
+}
+
+.author {
+  font-size: 300%;
+}
+
+d-w {
+  margin-inline-start: .5em;
+  margin-inline-end: .5em;
+  font-size: 60%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  display: block;
+  writing-mode: horizontal-tb;
+  text-align: end;
+}
+
+figcaption a {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+figcaption a::before {
+  content: "#";
+}
+
+figure img {
+  height: var(--page-height);
+  width: auto;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+
+License: Public Domain.
+
+*/
